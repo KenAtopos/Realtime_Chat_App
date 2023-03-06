@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Star from "../assets/star.gif";
+import Hello from "../assets/hi.gif";
 
 export default function Welcome({ currentUser }) {
   return (
     <Container>
-      <img src={Star} alt="Star" />
+      <img src={Hello} alt="hello" />
       <h1>
         Welcome, <span>{currentUser.username}</span>
       </h1>
@@ -19,13 +19,15 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #006400;
+  color: #183a1d;
   img {
-    height: 30rem;
-    padding: 2rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+  }
+  h1 {
   }
   span {
-    color: #674188;
+    color: #539165;
   }
   h3 {
     margin: 1rem;
