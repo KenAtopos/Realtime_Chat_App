@@ -44,12 +44,13 @@ export default function SetAvatar() {
         user.avatarImage = data.image;
         localStorage.setItem("chat-app-user", JSON.stringify(user));
         navigate("/");
-      } else {
-        toast.error(
-          "Something wrong while setting avatar, please try again.",
-          toastOptions
-        );
       }
+      // } else {
+      //   toast.error(
+      //     "Something wrong while setting avatar, please try again.",
+      //     toastOptions
+      //   );
+      // }
     }
   };
 
