@@ -24,3 +24,9 @@ This is a Realtime Chat Application built using the MERN (MongoDB, Express.js, R
 - Socket.io: a library used to enable real-time communication between users
 
 ## Demo
+![login_register](./demo/login_register.gif)
+![register_check](./demo/register_check.gif)
+![select_avatar](./demo/select_avatar.gif)
+![start_to_chat](./demo/start_to_chat.gif)
+![chat](./demo/chat.gif)
+![logout](./demo/logout.gif)
